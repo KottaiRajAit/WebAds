@@ -29,6 +29,7 @@ var enableLogging = true;
  */
 
 async function ochntrack() {
+    console.log('ochn.init', ochn.init)
     if (ochn.init) ochn.init();
     if (ochn.send) ochn.send("action", "visit");
 }
