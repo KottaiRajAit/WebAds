@@ -14,7 +14,7 @@ var enableLogging = true;
 
     js = d.createElement(s); js.id = id; js.async = !0;
 
-    js.src = "https://app.footprints-ai.com//jsapi/omnichannel.js";
+    js.src = "https://app.footprints-ai.com/jsapi/omnichannel.js";
 
     // js.src = "http://localhost:3000/jsapi/omnichannel.js";
 
